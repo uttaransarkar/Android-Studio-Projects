@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             String encodedCity = URLEncoder.encode(city, "UTF-8");
             DownloadContent task = new DownloadContent();
-            task.execute("http://api.openweathermap.org/data/2.5/weather?q=" + encodedCity + "&appid=c4cdb6d24bc724dbf0bc5a836b87231c");
+            task.execute("http://api.openweathermap.org/data/2.5/weather?q=" + encodedCity + "<insert your OpenWeatherMap API_KEY>");
 
             InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
             inputMethodManager.hideSoftInputFromWindow(cityEditText.getWindowToken(), 0);

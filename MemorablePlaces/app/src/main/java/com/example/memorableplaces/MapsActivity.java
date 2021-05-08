@@ -52,7 +52,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 marker.setPosition(userLocation);
             } else
                 marker = mMap.addMarker(new MarkerOptions().position(userLocation).title(place));
-            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userLocation, 15));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userLocation, 10));
         }
     }
 

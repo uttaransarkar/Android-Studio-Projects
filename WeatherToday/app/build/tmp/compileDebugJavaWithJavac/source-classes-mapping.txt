@@ -1,5 +1,0 @@
-com/example/weathertoday/BuildConfig.java
- com.example.weathertoday.BuildConfig
-com/example/weathertoday/MainActivity.java
- com.example.weathertoday.MainActivity
- com.example.weathertoday.MainActivity$DownloadContent
